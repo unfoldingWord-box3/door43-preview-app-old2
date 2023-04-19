@@ -1,0 +1,7 @@
+node_modules
+netlify.toml
+README.node_modulesLICENSE
+Dockerfile
+yarn-error.log
+build
+.history
