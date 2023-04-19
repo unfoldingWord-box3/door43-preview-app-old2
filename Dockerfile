@@ -12,4 +12,4 @@ COPY . .
 RUN yarn --frozen-lockfile
 RUN yarn build
 
-CMD ["yarn", "start", "--openssl-legacy-provider"]
+CMD ["yarn", "start"]
