@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:alpine
 
 WORKDIR /app
 
@@ -6,10 +6,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 EXPOSE 3000
 ENV PORT 3000
 
-COPY public ./public
-COPY src ./src
-COPY package.json .
-COPY yarn.lock .
+COPY . .
 
 RUN ls
 RUN ls public
