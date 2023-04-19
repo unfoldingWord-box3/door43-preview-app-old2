@@ -1,0 +1,48 @@
+{
+  "name": "dc-preview",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Preview App for DCS",
+  "homepage": "https://git.door43.org/preview",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unfoldingWord/dcs-preview"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "axios": "0.21.1",
+    "axios-cache-adapter": "^2.7.3",
+    "bible-reference-rcl": "^1.1.0",
+    "dcs-js": "^1.4.1",
+    "jszip": "^3.10.1",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.8.1",
+    "proskomma": "^0.8.0",
+    "proskomma-render-pdf": "0.6.8",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-json-view": "^1.21.3",
+    "react-scripts": "^3.4.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "react-scripts build && gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
